@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    height: 19vh;
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+
+.email {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.email-input {
+    position: relative;
+    width: 80%;
+    left: 10px;
+}
+
+.password {
+    position: relative;
+    left: 10px;
+}
+
+.password-input {
+    position: relative;
+    width: 80%;
+    left: 10px;
+}
+
+.question-form {
+    position: relative;
+    top: 20px;
+    height: 27vh;
+    width: 30%;
+    background-color: black;
+    color: white;
+}
+
+.question {
+    position: relative;
+    left: 10px;
+}
+
+.question-input {
+    position: relative;
+    width: 80%;
+    left: 10px;
+    height: 10vh;
+}
