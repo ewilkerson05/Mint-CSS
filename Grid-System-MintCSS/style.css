@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 20vh);
+}
+
+.item {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+    --card-size: 25px;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--card-size);
+    font-family: var(--font-family);
+}
+
+.card-text-div {
+    width: 90%;
+    height: 25vh;
+}
+
+.grid-2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 10%);
+    grid-template-rows: repeat(2, 30vh);
+    position: relative;
+    top: 20px;
+}
