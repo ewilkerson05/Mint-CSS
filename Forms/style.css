@@ -52,3 +52,29 @@
     left: 10px;
     height: 10vh;
 }
+
+@media only screen and (max-width: 700px) {
+    .form {
+        width: 50%;
+        height: 20vh;
+    }
+
+    .question-form {
+        width: 60%;
+        height: 31vh;
+    }
+
+    .question {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .question {
+        width: 90%;
+    }
+
+    .question-form {
+        height: 30vh;
+    }
+}
