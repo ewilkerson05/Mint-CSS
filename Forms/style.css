@@ -3,8 +3,8 @@
 }
 
 .form {
-    height: 19vh;
-    width: 30%;
+    height: 170px;
+    width: 600px;
     background-color: black;
     color: white;
 }
@@ -17,7 +17,7 @@
 
 .email-input {
     position: relative;
-    width: 80%;
+    width: 90%;
     left: 10px;
 }
 
@@ -28,15 +28,15 @@
 
 .password-input {
     position: relative;
-    width: 80%;
+    width: 90%;
     left: 10px;
 }
 
 .question-form {
     position: relative;
     top: 20px;
-    height: 27vh;
-    width: 30%;
+    height: 270px;
+    width: 600px;
     background-color: black;
     color: white;
 }
@@ -48,33 +48,7 @@
 
 .question-input {
     position: relative;
-    width: 80%;
+    width: 90%;
     left: 10px;
     height: 10vh;
-}
-
-@media only screen and (max-width: 700px) {
-    .form {
-        width: 50%;
-        height: 20vh;
-    }
-
-    .question-form {
-        width: 60%;
-        height: 31vh;
-    }
-
-    .question {
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width:1280px) {
-    .question {
-        width: 90%;
-    }
-
-    .question-form {
-        height: 30vh;
-    }
 }
