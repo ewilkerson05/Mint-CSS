@@ -1,0 +1,50 @@
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+#button1 {
+    font-size: 20px;
+    background-color: rgb(218, 238, 240);
+    width: 23%;
+    height: 100px;
+    /* position: relative;
+    left: 500px; */
+    padding: 10px 0px 0px 0px;
+    cursor: pointer;
+}
+
+#button2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: relative;
+    left: 250px;
+    top: 200px; */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#button3 {
+    color: black;
+    background-color: white;
+    font-size: 24px;
+    font-family: monospace;
+    /* position: relative;
+    left: 80px;
+    top: 400px; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+    .button {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+}
