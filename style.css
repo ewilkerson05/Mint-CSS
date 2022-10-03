@@ -1,50 +1,57 @@
-.button {
+* {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto;
+    grid-auto-flow: column;
+    height: 80vh;
+    width: 100%;
+}
+
+.item {
+    background-color: green;
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+    --card-size: 25px;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--card-size);
+    font-family: var(--font-family);
+}
+
+.card-text-div {
+    width: 90%;
+    height: 25vh;
+}
+
+.grid-2 {
     display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 300px);
+    position: relative;
+    top: 20px;
 }
 
-#button1 {
-    font-size: 20px;
-    background-color: rgb(218, 238, 240);
-    width: 23%;
-    height: 100px;
-    /* position: relative;
-    left: 500px; */
-    padding: 10px 0px 0px 0px;
-    cursor: pointer;
-}
-
-#button2 {
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* position: relative;
-    left: 250px;
-    top: 200px; */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#button3 {
-    color: black;
-    background-color: white;
-    font-size: 24px;
-    font-family: monospace;
-    /* position: relative;
-    left: 80px;
-    top: 400px; */
-    padding: 20px;
-    border-radius: 20px;
-}
-
-@media only screen and (max-width: 950px) {
-    .button {
-        grid-template-columns: repeat(2, auto);
+@media only screen and (max-width: 1100px) {
+    .grid {
+        grid-template-rows: auto;
+        grid-auto-flow: row;
     }
-}
-
-@media only screen and (max-width: 550px) {
-
 }
