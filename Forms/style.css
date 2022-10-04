@@ -3,7 +3,7 @@
 }
 
 .form {
-    height: 170px;
+    height: 215px;
     width: 600px;
     background-color: black;
     color: white;
@@ -34,8 +34,8 @@
 
 .question-form {
     position: relative;
-    top: 20px;
-    height: 270px;
+    top: 60px;
+    height: 290px;
     width: 600px;
     background-color: black;
     color: white;
@@ -51,4 +51,30 @@
     width: 90%;
     left: 10px;
     height: 10vh;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#button2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.topbutton {
+    position: relative;
+    top: 15px;
+    left: 230px;
+}
+
+.bottombutton {
+    position: relative;
+    top: 10px;
+    left: 230px;
 }
