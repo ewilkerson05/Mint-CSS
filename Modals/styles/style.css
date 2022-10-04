@@ -1,0 +1,14 @@
+.modal1 {
+    width: 60%; 
+    height: 40vh;
+    background-color: rgb(241, 241, 241);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#modalbutton1 {
+    background-color: rgba(157, 200, 255, 0.562);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
