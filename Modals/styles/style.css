@@ -1,16 +1,14 @@
-.modal1 {
-  width: 60%;
-  height: 40vh;
-  background-color: #f1f1f1;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  display: none;
+* {
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-#modalbutton1 {
-  background-color: rgba(157, 200, 255, 0.562);
-  font-size: 18px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 90px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
 }
-/*# sourceMappingURL=style.css.map */
