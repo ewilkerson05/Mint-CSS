@@ -4,8 +4,8 @@
 }
 
 .card {
-    background-color: black;
-    color: white;
+    background-color: #5CDB95;
+    color: #000000;
     height: 300px;
     width: 200px;
     display: flex;
@@ -48,4 +48,6 @@
 
 .line {
     width: 90%;
+    background-color: #000000;
+    color: #000000;
 }
