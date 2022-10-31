@@ -1,0 +1,414 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mellowmint-bg {
+    background-color: #5cdb958f;
+    border: 2px rgb(166, 166, 166) solid;
+}
+
+.mintygreen-bg {
+    background-color: #5CDB95;
+}
+
+.black-text {
+    color: black;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-rows: auto;
+    z-index: 5;
+    position: fixed;
+}
+
+.text {
+    font-size: 32px;
+    text-decoration: none;
+    margin: 40px;
+}
+
+.text :hover {
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: 30px;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#heroltext {
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    width: 50%;
+}
+
+#herol {
+    height: 100vh;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    cursor: pointer;
+}
+
+#button3 {
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 900px);
+    grid-template-rows: repeat(1, 500px);
+}
+
+#grid1 {
+    position: relative;
+    top: 100px;
+}
+
+#grid2 {
+    position: relative;
+    top: 100px;
+}
+
+.item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.card-text-div {
+    width: 90%;
+    height: 25vh;
+}
+
+.card-2 {
+    position: relative;
+    top: 30px;
+}
+
+.card-2-image {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -45px;
+}
+
+.card-text-div-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-text-2 {
+    width: 90%;
+    position: relative;
+}
+
+.line {
+    width: 90%;
+    background-color: #000000;
+    color: #000000;
+    position: relative;
+    top: -15px;
+}
+
+.form {
+    height: 215px;
+    width: 600px;
+}
+
+.email {
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+
+.email-input {
+    position: relative;
+    width: 90%;
+    left: 10px;
+}
+
+.password {
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.password-input {
+    position: relative;
+    width: 90%;
+    left: 10px;
+    top: 5px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#button2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.topbutton {
+    position: relative;
+    top: 15px;
+    left: 230px;
+}
+
+.bottombutton {
+    position: relative;
+    top: 10px;
+    left: 230px;
+}
+
+#grid3 {
+    position: relative;
+    top: 100px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    cursor: pointer;
+}
+
+#button3 {
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+}
+
+#button1 {
+    font-size: 20px;
+    background-color: rgb(218, 238, 240);
+    width: 23%;
+    height: 100px;
+    /* position: relative;
+    left: 500px; */
+    padding: 10px 0px 0px 0px;
+    cursor: pointer;
+}
+
+#button2 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: relative;
+    left: 250px;
+    top: 200px; */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#button3 {
+    color: black;
+    background-color: white;
+    font-size: 24px;
+    font-family: monospace;
+    /* position: relative;
+    left: 80px;
+    top: 400px; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#modal {
+    display: none; 
+  }
+  
+.text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 90px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 2px;
+} 
+ 
+#heros {
+    width: 50%;
+    height: 30vh;
+    position: relative;
+    left: 25%;
+}
+  
+#herom {
+    width: 75%;
+    height: 50vh;
+    position: relative;
+    left: 13%;
+}
+  
+#herol {
+    height: 70vh;
+}
+  
+#herol-smallscreen {
+    display: none;
+    height: 50vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1060px) {
+    .text {
+        font-size: 21px;
+        margin: 40px;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .nav-list {
+        top: 20px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .text {
+        font-size: 16px;
+        margin: 30px;
+    }
+
+    .navbar {
+        height: 70px;
+    }
+
+    .nav-list {
+        top: 19px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .text {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    .navbar {
+        height: 60px;
+    }
+
+    .nav-list {
+        top: 18px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 20px;
+        position: relative;
+        top: 3px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .text {
+        font-size: 11px;
+        margin: 10px;
+    }
+
+    .navbar {
+        height: 40px;
+    }
+
+    .nav-list {
+        top: 10px;
+    }
+
+    .logo {
+        width: 30px;
+        height: 15px;
+        top: 5px;
+    }
+}
